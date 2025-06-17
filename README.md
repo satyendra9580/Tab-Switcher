@@ -3,8 +3,6 @@
 
 A visually stunning and highly interactive tab switch component built with React, TypeScript, and Tailwind CSS. Features smooth animations, full accessibility support, and extensive customization options.
 
-![Tab Switcher Demo](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop&crop=center)
-
 ## ✨ Features
 
 ### Core Features
@@ -21,7 +19,6 @@ A visually stunning and highly interactive tab switch component built with React
 - **Content Transitions**: Staggered animations for content areas
 - **Multiple Orientations**: Horizontal and vertical tab layouts
 - **Custom Animation Types**: User-selectable animation styles
-- **Glassmorphism Effects**: Modern backdrop blur and transparency
 
 ## 🚀 Quick Start
 
@@ -105,25 +102,11 @@ The component automatically adapts to dark mode using Tailwind's dark mode class
 - **Lazy Content**: Content is rendered but hidden for instant switching
 - **Memory Efficient**: Minimal DOM manipulation and event listeners
 
-## ♿ Accessibility
-
-- **ARIA Compliant**: Full ARIA tablist, tab, and tabpanel support
-- **Keyboard Navigation**: Arrow keys, Home, End, Enter, and Space
-- **Focus Management**: Proper focus handling and visual indicators
-- **Screen Reader Support**: Semantic HTML and descriptive labels
-
 ### Keyboard Shortcuts
 - `Arrow Keys`: Navigate between tabs
 - `Home`: Go to first tab
 - `End`: Go to last tab
 - `Enter/Space`: Activate focused tab
-
-## 🎯 Browser Support
-
-- Chrome/Chromium 80+
-- Firefox 75+
-- Safari 13+
-- Edge 80+
 
 ## 🛠 Technical Details
 
@@ -131,21 +114,12 @@ The component automatically adapts to dark mode using Tailwind's dark mode class
 - **React 18** - Component library
 - **TypeScript** - Type safety
 - **Tailwind CSS** - Styling and animations
-- **Lucide React** - Icon library
-- **Radix UI** - Accessibility primitives
-
-### Architecture
-- Functional components with hooks
-- Custom animation state management  
-- Flexible prop-based configuration
-- CSS-in-JS with Tailwind utilities
 
 ## 📱 Responsive Design
 
 The component is fully responsive with:
 - Mobile-first approach
 - Touch-friendly tap targets (44px minimum)
-- Adaptive layouts for different screen sizes
 - Optimized animations for mobile devices
 
 ## 🔧 Development
@@ -159,39 +133,5 @@ src/
 │   └── Index.tsx          # Demo page
 └── lib/
     └── utils.ts           # Utility functions
-```
+```![Screenshot from 2025-06-17 14-16-50](https://github.com/user-attachments/assets/58e31824-14df-402e-8c9b-f042a9880b61)
 
-### Key Dependencies
-- `@radix-ui/*` - Accessibility primitives
-- `lucide-react` - Icons
-- `clsx` - Conditional classes
-- `tailwind-merge` - Class merging
-
-## 🚀 Deployment
-
-The application is optimized for deployment on:
-- Vercel (recommended)
-- Netlify
-- GitHub Pages
-- Any static hosting service
-
-Build for production:
-```bash
-npm run build
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📄 License
-
-MIT License - feel free to use in your projects!
-
----
-
-**Note**: This component showcases modern React patterns, accessibility best practices, and smooth animations. It's designed to be both beautiful and functional, serving as a foundation for tab interfaces in modern web applications.
