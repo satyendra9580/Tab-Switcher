@@ -133,5 +133,4 @@ src/
 │   └── Index.tsx          # Demo page
 └── lib/
     └── utils.ts           # Utility functions
-```![Screenshot from 2025-06-17 14-16-50](https://github.com/user-attachments/assets/58e31824-14df-402e-8c9b-f042a9880b61)
 
